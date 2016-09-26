@@ -3,6 +3,7 @@ package tasks;
 import tasks.pack1.Task1;
 import tasks.pack2.Task2;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Main {
@@ -18,7 +19,7 @@ public class Main {
         String lastIP = in.nextLine();
 
         Task1 task1 = new Task1();
-        task1.getIP(firstIP, lastIP);
+        task1.printIP(firstIP, lastIP);
         //задание 1 конец
 
         System.out.println("---------------------");
@@ -28,7 +29,7 @@ public class Main {
         String name = in.nextLine();
 
         Task2 task2 = new Task2();
-        task2.getPhone(name);
+        task2.printPhone(name);
         //задание 2 конец
 
     }

@@ -5,7 +5,7 @@ public class Task1 {
     private static final int BEGIN_INDEX = 0;
     private static final int END_INDEX = 10;
 
-    public void getIP(String firstIP, String lastIP) {
+    public void printIP(String firstIP, String lastIP) {
 
         try {
             int lastNumberIP1 = Integer.parseInt(firstIP.substring(END_INDEX));
@@ -16,6 +16,7 @@ public class Task1 {
             }
         }
         catch (Exception e) {
+            //e.printStackTrace();
             System.out.println("Ошибка");
         }
 
